@@ -1,6 +1,6 @@
 ### installation
 ```
-git clone
+git clone https://github.com/format37/kandinsky.git
 cd kandinsky
 ```
 ### inference
