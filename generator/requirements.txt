@@ -1,0 +1,3 @@
+cython
+ruclip==0.0.1
+rudalle==1.1.2
