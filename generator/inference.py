@@ -12,7 +12,7 @@ vae = get_vae(dwt=False).to(device)
 print('loading model...')
 
 # dalle = get_rudalle_model('Kandinsky', fp16=True, device=device, use_auth_token=KANDINSKY_TOKEN)
-dalle = get_rudalle_model('Kandinsky', fp16=True, device=device, local_files_only=True, cache_dir='/app/data/models/rudalle')
+dalle = get_rudalle_model('Kandinsky', fp16=True, device=device, local_files_only=True, cache_dir='/app/data/models')
 
 print('model leaded')
 
