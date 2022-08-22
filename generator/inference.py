@@ -3,7 +3,7 @@ from rudalle.pipelines import generate_images, show
 from rudalle import get_rudalle_model, get_tokenizer, get_vae
 from rudalle.utils import seed_everything
 import os
-import system
+import sys
 
 device = 'cuda'
 tokenizer = get_tokenizer()
@@ -17,7 +17,7 @@ dalle = get_rudalle_model('Kandinsky', fp16=True, device=device, local_files_onl
 print('model leaded')
 
 # receive text from parameters
-text = ' '.join(system.argv[1:])
+text = ' '.join(sys.argv[1:])
 # seed_everything(42)
 top_k, top_p = 768, 0.99
 pil_images, _ = generate_images(text, tokenizer, dalle, vae, top_k=top_k, images_num=1, bs=3, top_p=top_p)
