@@ -12,3 +12,5 @@ sh connect.sh
 python3 inference.py Солнце восходит над горой в джунглях. Картина восковыми мелками
 ```
 Result stored in data/generated
+### result
+![result](./samples/0.jpg)
