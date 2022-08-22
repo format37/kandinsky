@@ -13,4 +13,4 @@ python3 inference.py Солнце восходит над горой в джун
 ```
 Result stored in data/generated
 ### result
-![result](./samples/0.jpg)
+![result](./samples/0.png)
